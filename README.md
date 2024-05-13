@@ -11,16 +11,17 @@ You also need to download [Pytesseract-OCR](https://github.com/UB-Mannheim/tesse
 ##  Application in Action
 ### Video coming soon
 
+### Screenshots
 The image below shows the raw feed of the camera.
-![](img/png1.png)
+![](img/png1.PNG)
 
 The image is then processed.
-![](img/png2.png)
+![](img/png2.PNG)
 
 The text region is identified and then scans for the word and retrieves it as a string.
-![](img/png3.png)
+![](img/png3.PNG)
 
 Finally, the string is recorded and saved as a text file.
-![](img/png4.png)
+![](img/png4.PNG)
 
 
