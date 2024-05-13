@@ -9,6 +9,18 @@ pip install pytesseract
 ```
 You also need to download [Pytesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki)
 ##  Application in Action
-### coming soon
+### Video coming soon
+
+The image below shows the raw feed of the camera.
+![](img/png1.png)
+
+The image is then processed.
+![](img/png2.png)
+
+The text region is identified and then scans for the word and retrieves it as a string.
+![](img/png3.png)
+
+Finally, the string is recorded and saved as a text file.
+![](img/png4.png)
 
 
