@@ -23,15 +23,15 @@ while True:
             rect = cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
             cropped = image[y:y + h, x:x + w]
             text = pytesseract.image_to_string(cropped)
-            if len(text) > 0:
+            if len(text) > 1:
                 print(text)
                 file.write(text)
                 file.write("\n")
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
     cv2.imshow('Camera', image)
-    cv2.imshow('Proccessing', dilation)
+    cv2.imshow('Processing, dilation)
 
-file.close
+file.close()
 camera.release()
 cv2.destroyAllWindows()
